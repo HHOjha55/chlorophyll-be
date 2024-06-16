@@ -2,8 +2,8 @@ const BigPromise = require("../middlewares/bigPromise");
 const CustomError = require("../utility/customError");
 const Order = require("../models/order");
 const User = require("../models/user");
-const Plant = require("../models/plant");
-const Location = require("../models/location");
+const Plant = require("../models/Plant");
+const Location = require("../models/Location");
 const axios = require("axios");
 
 exports.createOrder = BigPromise(async (req, res, next) => {
