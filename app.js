@@ -13,7 +13,7 @@ const plant = require("./routes/plants");
 const location = require("./routes/location");
 const order = require("./routes/order");
 const Order = require("./models/order");
-const Location = require("./models/location");
+const Location = require("./models/Location");
 // const payment = require("./routes/payment");
 //Morgan middleware
 app.use(morgan("tiny"));
