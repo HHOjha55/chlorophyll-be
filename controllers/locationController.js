@@ -1,6 +1,6 @@
 const BigPromise = require("../middlewares/bigPromise");
 const CustomError = require("../utility/customError");
-const Location = require("../models/location");
+const Location = require("../models/Location");
 
 // add-location
 exports.addLocation = BigPromise(async (req, res, next) => {
