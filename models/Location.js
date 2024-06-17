@@ -43,6 +43,11 @@ const LocationSchema = new mongoose.Schema({
   plantingHistory: [
     { type: mongoose.Schema.ObjectId, ref: "Order", default: [] },
   ],
+  totalPlantingSpots: {
+    type: Number,
+    required: [true, "Please add a totalPlantingSpots"],
+    default: 5,
+  },
   createdAt: {
     type: Date,
     default: Date.now,
