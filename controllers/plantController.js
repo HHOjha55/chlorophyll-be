@@ -1,4 +1,4 @@
-const Plant = require("../models/plant");
+const Plant = require("../models/Plant");
 const BigPromise = require("../middlewares/bigPromise");
 const CustomError = require("../utility/customError");
 
