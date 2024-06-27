@@ -2,6 +2,9 @@
   "name": "chlorophyll-be",
   "version": "1.0.0",
   "description": "Chlorophyll rest API",
+  "engines": {
+    "node": "20.x"
+  }
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
